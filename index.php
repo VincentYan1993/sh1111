@@ -21,6 +21,6 @@ if(array_key_exists("PATH_INFO", $_SERVER)){
     }
 
 }else {
-    include 'views/index/index.html';
+    include $_SERVER['DOCUMENT_ROOT'].'views/index/index.html';
 }
 
